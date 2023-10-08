@@ -95,6 +95,14 @@
 #![doc = include_str!("../../../examples/tutorial_derive/03_05_default_values.rs")]
 //! ```
 #![doc = include_str!("../../../examples/tutorial_derive/03_05_default_values.md")]
+//! ### Globals
+//!
+//! You can accept the same argument in multiple subcommands using the [`global`][crate::Arg::global] attribute.
+//!
+//! ```rust
+#![doc = include_str!("../../../examples/tutorial_derive/03_06_globals.rs")]
+//! ```
+#![doc = include_str!("../../../examples/tutorial_derive/03_06_globals.md")]
 #![allow(unused_imports)]
 use crate::builder::*;
 

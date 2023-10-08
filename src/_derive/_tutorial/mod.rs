@@ -17,6 +17,7 @@
 //!     3. [Flags][chapter_2#flags]
 //!     4. [Subcommands][chapter_2#subcommands]
 //!     5. [Defaults][chapter_2#defaults]
+//!     6. [Globals][chapter_2#globals]
 //! 4. [Validation][chapter_3]
 //!     1. [Enumerated values][chapter_3#enumerated-values]
 //!     2. [Validated values][chapter_3#validated-values]
