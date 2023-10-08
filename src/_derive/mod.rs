@@ -404,6 +404,13 @@
 //! especially helpful if some arguments can be specified at compile-time while others must be
 //! specified at runtime.
 //!
+//! ### Using derived commands with the builder API
+//!
+//! Importing the [`crate::CommandFactory`] trait allows you to use the builder API for a derived command:
+//! ```rust
+#![doc = include_str!("../../examples/derive_ref/command_factory.rs")]
+//! ```
+//!
 //! ### Using derived arguments in a builder application
 //!
 //! When using the derive API, you can `#[command(flatten)]` a struct deriving `Args` into a struct
